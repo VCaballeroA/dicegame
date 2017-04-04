@@ -1,0 +1,30 @@
+<!--Program written by: Valentina Caballero (vcaballe)
+Date: Tuesday, April 4, 2017.
+Purpose: This html program is part 2 of 3 for the HIGH or LOW dice game. It permits users to insert their names into the provided text fields and select what kind of dice game they want to play (e.g. Highest Number Wins or Lowest Number Wins).-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HIGH or LOW Dice Game</title>
+         <link rel="stylesheet" type="text/css" href="vcaballeassign3.css">
+       <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700|Roboto:300,400" rel="stylesheet">
+        <script src="vcaballeassign3_1.js"></script>
+    </head>
+    
+    <body>
+        <button id="howToPlay" onclick="explainGame()">?</button>
+        <div id="setUp1">
+            <h1 id="titles">ENTER PLAYER NAMES</h1>
+            <input type="text" placeholder="Enter Player 1 Name" id="nameOne"/><br>
+            <input type="text" placeholder="Enter Player 2 Name" id="nameTwo"/>
+        </div>
+        
+        <div id="setUp2">
+            <h1 id="titles">CHOOSE YOUR GOAL</h1>
+            <button id="highest" onclick="playGameHigher()">Get the Highest Possible Number</button><br>
+            <button id="lowest" onclick="playGameLower()">Get the Lowest Possible Number</button><br>
+        </div> 
+        
+    </body>
+</html>

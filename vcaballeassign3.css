@@ -1,0 +1,350 @@
+/* Program written by: Valentina Caballero (vcaballe)
+Date: Tuesday, April 4, 2017.*/
+
+body {
+    background-color: #2EC4B6;
+}
+
+/* CSS for vcaballeassign3.html, the main starting page for the game */
+#howToPlay {
+    position: absolute;
+    top: 12px;
+    left: 95%;
+    
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffc200;
+    
+    font-size: 25px;
+    font-family: "Poppins","Helvetica", "Arial", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+#highLow {
+    position: relative;
+    display: block;
+    width: 360px;
+    height: 480px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+
+#titles {
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    
+    font-size: 40px;
+    font-family: "Poppins","Helvetica", "Arial", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+#start {
+    position: relative;
+    display: block;
+    width: 25%;
+    border: none; 
+    border-radius: 4px;
+    background-color: #ffc200;
+    padding: 8px;
+    margin: auto;
+    margin-bottom: 30px;
+    
+    font-size: 16px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    color: white;
+}
+
+/* CSS for vcaballeassign3_1.html, the "Enter Player Names & Choose Your Goal" page */
+#setUp1 {
+    margin-top: 80px;
+    margin-bottom: 80px
+}
+
+#setUp2 {
+    margin-top: 100px;
+    margin-bottom: 80px
+}
+
+#highest, #lowest {
+    position: relative;
+    display: block;
+    width: 50%;
+    height: 30px;
+    border: none; 
+    border-radius: 4px;
+    background-color: #011627;
+    padding: 6px;
+    margin: auto;
+    
+    font-size: 15px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    color: white;
+}
+
+#nameOne, #nameTwo {
+    position: relative;
+    display: block;
+    width: 35%;
+    height: 20px;
+    border: none; 
+    border-radius: 4px;
+    background-color: #011627;
+    padding: 6px;
+    margin: auto;
+    text-align: center;
+    
+    font-size: 15px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    color: white;
+}
+
+/* CSS for vcaballeassign3_2.html, the page where the dice games are played */
+#playerOne {
+    position: relative;
+    display: block;
+    float: left;
+    left: 100px;
+    
+    font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+    font-weight: 600;
+    color: #002626;
+}
+
+#position1_1 {
+    position: relative;
+    display: block;
+    float: left;
+    left: 100px;
+    
+    width: 70px;
+    height: 70px;
+    border: 2px solid #ffc200;
+    border-radius: 4px;
+    margin: 5px;
+    background-color: #ffc200;
+    text-align: center;
+    
+    font-size: 18px;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+#position1_2 {
+    position: relative;
+    display: block;
+    float: left;
+    left: 100px;
+    
+    width: 70px;
+    height: 70px;
+    border: 2px solid #ffc200;
+    border-radius: 4px;
+    margin: 5px;
+    background-color: #ffc200;
+    text-align: center;
+    
+    font-size: 18px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    
+}
+
+#position1_3 {
+    position: relative;
+    display: block;
+    float: left;
+    left: 100px;
+    
+    width: 70px;
+    height: 70px;
+    border: 2px solid #ffc200;
+    border-radius: 4px;
+    margin: 5px;
+    background-color: #ffc200;
+    text-align: center;
+    
+    font-size: 18px;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+#position1_4 {
+    position: relative;
+    display: block;
+    float: left;
+    left: 100px;
+    
+    width: 70px;
+    height: 70px;
+    border: 2px solid #ffc200;
+    border-radius: 4px;
+    margin: 5px;
+    background-color: #ffc200;
+    text-align: center;
+    
+    font-size: 18px;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+#playerTwo {
+    position: relative; 
+    display: block;
+    float: right;
+    right: 100px;
+    
+    font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+    font-weight: 600;
+    color: #002626;
+}
+
+#position2_1 {
+    position: relative;
+    display: block;
+    float: right;
+    right: 100px;
+    
+    width: 70px;
+    height: 70px;
+    border: 2px solid #F93943;
+    border-radius: 4px;
+    margin: 5px;
+    background-color: #F93943;
+    text-align: center;
+    
+    font-size: 18px;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+#position2_2 {
+    position: relative;
+    display: block;
+    float: right;
+    right: 100px;
+    
+    width: 70px;
+    height: 70px;
+    border: 2px solid #F93943;
+    border-radius: 4px;
+    margin: 5px;
+    background-color: #F93943;
+    text-align: center;
+    
+    font-size: 18px;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+#position2_3 {
+    position: relative;
+    display: block;
+    float: right;
+    right: 100px;
+    
+    width: 70px;
+    height: 70px;
+    border: 2px solid #F93943;
+    border-radius: 4px;
+    margin: 5px;
+    background-color: #F93943;
+    text-align: center;
+    
+    font-size: 18px;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+#position2_4 {
+    position: relative;
+    display: block;
+    float: right;
+    right: 100px;
+    
+    width: 70px;
+    height: 70px;
+    border: 2px solid #F93943;
+    border-radius: 4px;
+    margin: 5px;
+    background-color: #F93943;
+    text-align: center;
+    
+    font-size: 18px;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+#player1Area {
+    position: relative;
+    display: block;
+    float: left;
+    left: 100px;
+}
+
+#player2Area {
+    position: relative;
+    display: block;
+    float: right;
+    right: 100px;
+}
+
+#winner {
+    position: relative;
+    display: block;
+    margin-top: 145px;
+    text-align: center;
+    vertical-align: middle;
+    
+    font-size: 28px;
+    font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+    font-weight: 600;
+    color: #fcd25b;
+}
+
+#playAgain {
+    position: relative;
+    display: block;
+    top: 120px;
+    width: 15%;
+    border: none; 
+    border-radius: 4px;
+    background-color: #011627;
+    padding: 10px;
+    margin: auto;
+    
+    font-size: 15px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    color: white;
+}
+
+#backHome {
+    position: relative;
+    display: block;
+    top: 122px;
+    bottom: 80px;
+    width: 15%;
+    border: none; 
+    border-radius: 4px;
+    background-color: #011627;
+    padding: 10px;
+    margin: auto;
+    
+    font-size: 15px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    color: white;
+}
+
+/* CSS for vcaballeassign3_3.html, a page providing instructions on how to play the HIGH or LOW dice game */
+#instructions {
+    padding-left: 90px;
+    padding-right: 90px;
+    font-size: 18px;
+    font-family: "Helvetica", "Arial", sans-serif;
+    color: #011627;
+}
+
+span {
+    font-size: 20px;
+    font-family: "Poppins","Helvetica", "Arial", sans-serif;
+    font-weight: 600;
+    color: #fcd25b;
+}
